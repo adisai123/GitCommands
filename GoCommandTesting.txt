@@ -3,3 +3,4 @@ Hey there this is git tool
 2
 3 
 hey this is modified
+modied amend
