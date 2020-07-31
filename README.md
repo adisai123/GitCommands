@@ -11,4 +11,12 @@
 
 5. git reflog (all the history still avaliable even if amend override it)
 
+6. git reflog expire --expire-unreachable=now --all (removes detached unreachable version)
+
 6. git checkout 184d9c4
+
+7. create new branch from existing brach: git checkout -b stage
+
+8. to delete branch from local : git branch -D testdelete
+
+9. squash 

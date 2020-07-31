@@ -4,3 +4,5 @@ Hey there this is git tool
 3 
 hey this is modified
 modied amend
+
+git commit 1
