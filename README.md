@@ -48,3 +48,9 @@ safe way is to use -i instead of -d : git clean -d -x -i
 
 15. Revert (history will be get created or intacted) 
     git revert <version> # version can be HEAD or any hash number
+
+16. Rebase: to make your branch up to date with master or any other branch 
+  1. git checkout master
+  2. git pull master
+  3. git checkout mybranchname
+  4. git rebase master
