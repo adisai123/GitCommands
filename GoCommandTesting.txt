@@ -6,4 +6,6 @@ hey this is modified
 modied amend
 
 git commit 1
-git commit 2squash 1
+git commit 2
+squash 1
+squash 2
