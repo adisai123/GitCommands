@@ -32,3 +32,19 @@
 
 12. Soft reset : git reset head
       It will simply unstage stagged changes.
+
+13. hard reset :  git reset  --hard
+aditya@aditya-nupur:~/GOProjects/Aditya/src/github.com/GitCommands$ > info3.txt
+aditya@aditya-nupur:~/GOProjects/Aditya/src/github.com/GitCommands$ git clean -d -x -f
+Removing info3.txt
+aditya@aditya-nupur:~/GOProjects/Aditya/src/github.com/GitCommands$ 
+
+clean command will clean new untracted files.
+
+safe way is to use -i instead of -d : git clean -d -x -i
+
+14. Hard reset on previous commit : Its harmful , as it will  completly wipe out changes and also history 
+    git reset 719a49e --hard
+
+15. Revert (history will be get created or intacted) 
+    git revert <version> # version can be HEAD or any hash number
