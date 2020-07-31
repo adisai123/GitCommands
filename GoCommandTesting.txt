@@ -9,5 +9,3 @@ git commit 1
 git commit 2
 squash 1
 squash 2
-
-reverting changes
