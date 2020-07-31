@@ -19,4 +19,16 @@
 
 8. to delete branch from local : git branch -D testdelete
 
-9. squash 
+9. squash : concept is while merging changes if there are multiple commit entries and if you want to clube them all together; while merging you can use merge and squash option available in gui.
+
+10. alias : as name indicate you can create alias of git options 
+	```bash 
+	aditya@aditya-nupur:~/GOProjects/Aditya/src/github.com/GitCommands$ git config --global alias.onelinegraph 'log --oneline --graph --decorate'
+	aditya@aditya-nupur:~/GOProjects/Aditya/src/github.com/GitCommands$ git  onelinegraph
+
+	```
+11. git fetch --prune    -- fetch from remote repo , any references delete from remote repo will also be deleted from my local machine
+	git config --global fetch.prune true --- everytime you type git fetch , you need not to type --prune
+
+12. Soft reset : git reset head
+      It will simply unstage stagged changes.
