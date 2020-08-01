@@ -84,3 +84,19 @@ safe way is to use -i instead of -d : git clean -d -x -i
 git pull on the other hand does that AND brings (copy) those changes from the remote repository.
 
 
+19. stash: Stashing is a Git function that allows you to temporarily save your file changes without applying them to your project.
+
+``` 
+git stash
+
+ git stash pop
+ git stash list
+  git stash show stash@{0}
+
+git stash apply stash@{0}
+git stash save -u saved
+git stash clear  - clear all
+git stash drop  - removes single stash.
+```
+
+20.Tags
