@@ -76,4 +76,7 @@ git config --local -e
     tool = vscode
 [difftool "vscode"]
     cmd = code --wait --diff $LOCAL $REMOTE
+[credential]
+        helper = store
+
 ```
