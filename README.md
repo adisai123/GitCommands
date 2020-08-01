@@ -54,3 +54,26 @@ safe way is to use -i instead of -d : git clean -d -x -i
   2. git pull master
   3. git checkout mybranchname
   4. git rebase master
+
+17. cherrypick: 
+
+
+
+
+
+# config:   
+
+    to edit config:
+git config --global -e
+git config --local -e
+
+```
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+```
