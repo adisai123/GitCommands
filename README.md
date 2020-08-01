@@ -99,4 +99,22 @@ git stash clear  - clear all
 git stash drop  - removes single stash.
 ```
 
-20.Tags
+20.Tags:
+Light weight tags -- kind of bookmark
+used for official releases
+
+To checkout tag is same as checkouting branch
+
+git checkout <tagname>
+
+git list of tags : git tag
+
+create light weight tag : git tag sampletag
+
+create annotated tag: git tag -a  OnmasterAnnotated -m "v1.1"
+
+describe tags : git show <tagname>
+
+delete tag : git tag -d <tagname>
+
+git push --tag 
