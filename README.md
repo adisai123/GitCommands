@@ -55,9 +55,16 @@ safe way is to use -i instead of -d : git clean -d -x -i
   3. git checkout mybranchname
   4. git rebase master
 
-17. cherrypick: 
+17. cherrypick: git cherry-pick 84298ac
+    To merge only specific commits from a pull request with
 
 
+
+
+# fetch and pull difference
+    git fetch is the command that tells your local git to retrieve the latest meta-data info from the original (yet doesn’t do any file transferring. It’s more like just checking to see if there are any changes available).
+
+git pull on the other hand does that AND brings (copy) those changes from the remote repository.
 
 
 
