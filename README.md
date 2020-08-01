@@ -1,4 +1,24 @@
+# config:   
+
+    to edit config:
+git config --global -e
+git config --local -e
+
+```
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[credential]
+        helper = store
+
+```
 # GitCommands
+
 
 
 1. git commit --amend   # rewrite commit
@@ -58,32 +78,9 @@ safe way is to use -i instead of -d : git clean -d -x -i
 17. cherrypick: git cherry-pick 84298ac
     To merge only specific commits from a pull request with
 
-
-
-
-# fetch and pull difference
+18 .fetch and pull difference
     git fetch is the command that tells your local git to retrieve the latest meta-data info from the original (yet doesn’t do any file transferring. It’s more like just checking to see if there are any changes available).
 
 git pull on the other hand does that AND brings (copy) those changes from the remote repository.
 
 
-
-# config:   
-
-    to edit config:
-git config --global -e
-git config --local -e
-
-```
-[merge]
-    tool = vscode
-[mergetool "vscode"]
-    cmd = code --wait $MERGED
-[diff]
-    tool = vscode
-[difftool "vscode"]
-    cmd = code --wait --diff $LOCAL $REMOTE
-[credential]
-        helper = store
-
-```
