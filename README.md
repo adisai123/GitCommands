@@ -118,3 +118,7 @@ describe tags : git show <tagname>
 delete tag : git tag -d <tagname>
 
 git push --tag 
+
+git log -b <branchname>
+to pick changes of perticular commit
+git cherry-pick <commit hascode>
